@@ -2,7 +2,7 @@ import urllib
 import pycurl
 import StringIO
 
-def new-device():
+def new_device():
 #set up vars
   id_holder = StringIO.StringIO()
   curler    = pycurl.Curl()
@@ -19,5 +19,3 @@ def new-device():
   print "id_holder.getvalue() =>"
   print id_holder.getvalue()
   return id_holder.getvalue()
-
-skyID  = getNewID();
